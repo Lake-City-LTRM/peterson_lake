@@ -12,28 +12,28 @@ library(lubridate)
 ### PL1, PL2, PL3: 6 winter files each ###
 
 ### PL1 ###
-PL1_win_1617 <- read_csv('2016-17W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL1_win_1718 <- read_csv('2017-18W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL1_win_1819 <- read_csv('2018-19W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL1_win_1920 <- read_csv('2019-20W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL1_win_2021 <- read_csv('2020-21W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL1_win_2122 <- read_csv('2021-22W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_1617 <- read_csv('data/2016-17W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_1718 <- read_csv('data/2017-18W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_1819 <- read_csv('data/2018-19W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_1920 <- read_csv('data/2019-20W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_2021 <- read_csv('data/2020-21W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL1_win_2122 <- read_csv('data/2021-22W_9652.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
 
 ### PL2 ###
-PL2_win_1617 <- read_csv('2016-17W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL2_win_1718 <- read_csv('2017-18W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL2_win_1819 <- read_csv('2018-19W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL2_win_1920 <- read_csv('2019-20W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL2_win_2021 <- read_csv('2020-21W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL2_win_2122 <- read_csv('2021-22W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_1617 <- read_csv('data/2016-17W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_1718 <- read_csv('data/2017-18W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_1819 <- read_csv('data/2018-19W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_1920 <- read_csv('data/2019-20W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_2021 <- read_csv('data/2020-21W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL2_win_2122 <- read_csv('data/2021-22W_9653.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
 
 ### PL3 ###
-PL3_win_1617 <- read_csv('2016-17W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL3_win_1718 <- read_csv('2017-18W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL3_win_1819 <- read_csv('2018-19W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL3_win_1920 <- read_csv('2019-20W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL3_win_2021 <- read_csv('2020-21W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
-PL3_win_2122 <- read_csv('2021-22W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_1617 <- read_csv('data/2016-17W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_1718 <- read_csv('data/2017-18W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_1819 <- read_csv('data/2018-19W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_1920 <- read_csv('data/2019-20W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_2021 <- read_csv('data/2020-21W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
+PL3_win_2122 <- read_csv('data/2021-22W_9654.csv', skip = 2,  col_select= 1:4, col_names=c("RecNum", "Date.Time", "DO", "TempF"))
 
 #__2. Format Data ----
 
@@ -103,6 +103,7 @@ PL3_hobo_winter_1621 <- rbind(PL3_win_1617, PL3_win_1718, PL3_win_1819, PL3_win_
 #____b) all stations combined ----
 
 PL123_hobo_winter_1621 <-rbind(PL1_hobo_winter_1621, PL2_hobo_winter_1621, PL3_hobo_winter_1621)
+
 
 #__4. Write combined data file to .csv in project folder----
 
